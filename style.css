@@ -88,3 +88,49 @@ body{
 .slike img{
     height: 90px;
 }
+.stipendija{
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.stipendija .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.stipendija .right img{
+    height: 300px;
+    border: solid 7px rgb(60, 88, 94);
+}
+.stipendija .left button{
+    height: 70px;
+    width: 300px;
+    background-color: rgb(43, 74, 247);
+    border: none;
+    border-radius: 30px;
+    
+}
+.stipendija .left button a{
+    text-decoration: none;
+    color: white;
+    font-family: Gill Sans, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+.stipendija .left button:hover{
+    background-color: rgb(51, 121, 244);
+}
+footer{
+    height: 100px;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(60, 88, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer h3{
+    color: rgb(205, 203, 203);
+    font-style: italic;
+}
