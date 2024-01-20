@@ -1,0 +1,90 @@
+body{
+    margin: auto;
+    background-color: rgb(210, 210, 210);
+}
+.header{
+    margin: auto;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(60, 88, 94);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1{
+    margin-left: 70px;
+    font-family: Georgia, serif;
+    color: rgb(205, 203, 203);
+}
+.header ul{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 80px;
+}
+.header li{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    font-family: Georgia, serif;
+    font-weight: 600;
+}
+.header li a{
+    text-decoration: none;
+    color: rgb(205, 203, 203)
+}
+.header li a:hover{
+    color: white;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.main .lijevo img{
+    height: 300px;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+.main .desno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 70px;
+    padding-top: 30px;
+    border: solid rgb(98, 98, 98) 2px;
+    border-radius: 40px;
+}
+.main .desno h1{
+    font-family: Georgia, serif;
+}
+.main .desno p{
+    font-size: larger;
+    font-family: Georgia, serif;
+    text-align: justify;
+}
+.skills{
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(60, 88, 94);
+}
+.skills h1{
+    font-family: Bookman, URW Bookman L, serif;
+    font-size: 50px;
+    color: rgb(205, 203, 203);
+}
+.slike{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    background-color: rgb(60, 88, 94);
+}
+.slike img{
+    height: 90px;
+}
